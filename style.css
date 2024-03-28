@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: sans-serif, 'Poppins';
+}
+html{
+    scroll-behavior: smooth;
+}
+.nav-item{
+    padding-right: 15px;
+}
+.container-hero{
+    min-height: 80vh;
+    /*color: #fff;*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(images/bg.jpg);
+  }
+.card-img-top{
+    border-radius: 50px;
+    padding: 20px;
+}
+.card{
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+.card-body{
+    padding: 25px;
+    margin-top: -15px;
+}
+.addToCart{
+    border-radius: 50px;
+    width: 120px;
+}
+.addToCart:hover{
+    background-color: black;
+}
+
+.row.single-form{
+    box-shadow: 0 2px 20px -5px rgba(0, 0, 0, 0.5);
+}
+.left{
+    background: #0d6efd;
+    padding: 200px 98px;
+}
+.left h2{
+    color: #fff;
+    font-weight: 700;
+    font-size: 48px;
+}
+.left h2 span{
+    font-weight: 100;
+}
+.right{
+    padding: 70px 100px;
+    position: relative;
+}
+.right i{
+    position: absolute;
+    font-size: 80px;
+    left: -27px;
+    top: 40%;
+    color: #fff;
+}
+.form-control{
+    border: 2px solid #000;
+}
+.right button{
+    border: none;
+    border-radius: 0;
+    background: #252525;
+    width: 180px;
+    color: #fff;
+    padding: 15px 0;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+}
