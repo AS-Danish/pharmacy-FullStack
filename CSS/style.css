@@ -10,8 +10,9 @@ html{
 }
 .container-hero{
     min-height: 80vh;
+    
     /*color: #fff;*/
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(images/bg.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/bg.jpg");
   }
 .card-img-top{
     border-radius: 50px;

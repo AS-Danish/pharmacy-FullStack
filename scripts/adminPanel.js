@@ -1,0 +1,1 @@
+let tabPages = document.getElementsByClassName("tab-pane");
